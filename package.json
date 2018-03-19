@@ -1,0 +1,29 @@
+{
+  "name": "tslint-checker",
+  "version": "1.0.0",
+  "description": "Module to have customised and common tslint rules",
+  "main": "tslint.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amittkSharma/tslint-checker.git"
+  },
+  "keywords": [
+    "tslint"
+  ],
+  "author": "Amitt K Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amittkSharma/tslint-checker/issues"
+  },
+  "homepage": "https://github.com/amittkSharma/tslint-checker#readme",
+  "peerDependencies": {
+    "tslint": "5.9.1"
+  },
+  "dependencies": {
+    "tslint-eslint-rules": "5.1.0",
+    "vrsource-tslint-rules": "5.8.2"
+  }
+}
