@@ -1,6 +1,6 @@
 {
   "name": "tslint-checker",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Module to have customised and common tslint rules across development teams",
   "main": "tslint.json",
   "scripts": {
@@ -14,6 +14,10 @@
     "tslint",
     "tslint-react",
     "react-tslint",
+    "linting rules",
+    "tsx",
+    "react",
+    "angular",
     "angular linting rules"
   ],
   "author": "Amitt K Sharma",
