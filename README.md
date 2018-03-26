@@ -5,7 +5,7 @@
 
 tslint-checker is the module to synchronise linting rules in the distributed development environment.
 
-- Works on the latest [tslint](https://github.com/palantir/tslint/) rules
+- Works on the latest [tslint](https://palantir.github.io/tslint/rules/) rules
 - Serves linting rules for Typescript, React (tsx support) and Angular projects
 - Easily extensible
 - Easy incorporation
@@ -41,6 +41,9 @@ the following:
 }
 
 ```
+
+## Reference TS Lint Rules:
+[TSLint Rules](https://palantir.github.io/tslint/rules/)
 
 ## License
 MIT
