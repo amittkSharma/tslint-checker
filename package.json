@@ -26,10 +26,8 @@
     "url": "https://github.com/amittkSharma/tslint-checker/issues"
   },
   "homepage": "https://github.com/amittkSharma/tslint-checker#readme",
-  "peerDependencies": {
-    "tslint": "5.9.1"
-  },
   "dependencies": {
+    "tslint": "5.9.1",
     "tslint-eslint-rules": "5.1.0",
     "vrsource-tslint-rules": "5.8.2"
   }
