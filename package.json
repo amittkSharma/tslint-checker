@@ -1,7 +1,7 @@
 {
   "name": "tslint-checker",
   "version": "1.0.0",
-  "description": "Module to have customised and common tslint rules",
+  "description": "Module to have customised and common tslint rules across development teams",
   "main": "tslint.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,10 @@
     "url": "git+https://github.com/amittkSharma/tslint-checker.git"
   },
   "keywords": [
-    "tslint"
+    "tslint",
+    "tslint-react",
+    "react-tslint",
+    "angular linting rules"
   ],
   "author": "Amitt K Sharma",
   "license": "MIT",
