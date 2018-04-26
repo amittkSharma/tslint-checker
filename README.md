@@ -13,7 +13,7 @@ tslint-checker is the module to synchronise linting rules in the distributed dev
 ## Usage
 The package can be integrated very easily in any project.
 ```
- - npm install tslint-checker -D
+ - npm install tslint-checker --save
 ```
 Create a `tslint.json` file in the root folder of your project and add
 the following:
