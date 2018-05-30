@@ -1,6 +1,6 @@
 {
   "name": "tslint-checker",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Module to have customised and common tslint rules across development teams",
   "main": "tslint.json",
   "scripts": {
