@@ -135,7 +135,7 @@
     ],
     "radix": true,
     "restrict-plus-operands": true,
-    "space-within-parens": [true, 1],
+    "space-within-parens": [true, 0],
     "semicolon": [
       true,
       "never"
