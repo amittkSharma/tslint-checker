@@ -28,7 +28,7 @@
       2
     ],
     "jsdoc-format": true,
-    "linebreak-style": [true],
+    "linebreak-style": [false],
     "max-classes-per-file": [
       true,
       1
