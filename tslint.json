@@ -1,5 +1,5 @@
 {
-  "extends": "tslint:latest",
+  "extends": ["tslint:latest", "tslint-config-prettier"],
   "rules": {
     "adjacent-overload-signatures": true,
     "align": [
@@ -135,7 +135,6 @@
     ],
     "radix": true,
     "restrict-plus-operands": true,
-    "space-within-parens": 0,
     "semicolon": [
       true,
       "never"
@@ -146,7 +145,6 @@
     ],
     "strict-boolean-expressions": true,
     "switch-default": true,
-    "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
     "triple-equals": [
       true
     ],

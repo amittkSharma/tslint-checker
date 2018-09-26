@@ -1,5 +1,5 @@
 {
-    "extends": ["tslint-react"],
+    "extends": ["tslint-react", "tslint-config-prettier"],
     "rules": {
       "align": [false, "parameters", "arguments", "statements"],
       "ban": false,
@@ -12,7 +12,6 @@
       "interface-name": [true, "never-prefix"],
       "jsdoc-format": true,
       "jsx-no-lambda": false,
-      "jsx-no-multiline-js": true,
       "label-position": true,
       "max-line-length": [true, 120],
       "member-ordering": [
@@ -92,11 +91,7 @@
         "check-type",
         "check-typecast",
         "check-preblock"
-      ],
-      "jsx-alignment": true,
-      "jsx-curly-spacing": [true, "never"],
-      "jsx-equals-spacing": [true, "never"],
-      "jsx-wrap-multiline": true
+      ]
     }
   }
 
