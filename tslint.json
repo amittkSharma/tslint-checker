@@ -143,7 +143,7 @@
       true,
       "never"
     ],
-    "strict-boolean-expressions": true,
+    "strict-boolean-expressions": false,
     "switch-default": true,
     "triple-equals": [
       true
