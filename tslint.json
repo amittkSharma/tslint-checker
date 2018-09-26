@@ -48,7 +48,7 @@
       ]
     }],
     "new-parens": true,
-    "newline-per-chained-call": true,
+    "newline-per-chained-call": false,
     "no-string-literal": false,
     "no-floating-promises": true,
     "no-magic-numbers": true,
