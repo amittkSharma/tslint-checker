@@ -2,21 +2,16 @@
   "extends": ["tslint:latest", "tslint-config-prettier"],
   "rules": {
     "adjacent-overload-signatures": true,
-    "align": [
-      true,
-      "arguments",
-      "parameters",
-      "statements"
-    ],
+    "align": false,
     "arrow-parens": [true, "ban-single-arg-parens"],
-    "arrow-return-shorthand": true,
+    "arrow-return-shorthand": false,
     "await-promise": [true, "Thenable"],
     "ban-comma-operator": true,
     "callable-types": true,
     "curly": true,
     "eofline": true,
     "forin": false,
-    "import-spacing": true,
+    "import-spacing": false,
     "interface-name": [
       true,
       "never-prefix"
@@ -55,7 +50,7 @@
     "no-namespace": true,
     "no-reference": true,
     "no-inferrable-types": true,
-    "no-irregular-whitespace": true,
+    "no-irregular-whitespace": false,
     "no-non-null-assertion": true,
     "no-arg": true,
     "no-bitwise": true,
@@ -84,30 +79,21 @@
     "no-mergeable-namespace": true,
     "no-angle-bracket-type-assertion": true,
     "no-boolean-literal-compare": true,
-    "no-consecutive-blank-lines": true,
-    "no-unnecessary-callback-wrapper": true,
-    "no-parameter-reassignment": true,
+    "no-consecutive-blank-lines": false,
+    "no-unnecessary-callback-wrapper": false,
+    "no-parameter-properties": false,
+    "no-parameter-reassignment": false,
     "no-inferred-empty-object-type": true,
     "no-implicit-dependencies": [
       true,
       "dev"
     ],
-    "no-trailing-whitespace": true,
+    "no-trailing-whitespace": false,
     "number-literal-format": true,
-    "object-literal-shorthand": true,
-    "object-literal-key-quotes": [
-      true,
-      "as-needed"
-    ],
+    "object-literal-shorthand": false,
+    "object-literal-key-quotes": false,
     "object-literal-sort-keys": false,
-    "one-line": [
-      true,
-      "check-open-brace",
-      "check-catch",
-      "check-else",
-      "check-finally",
-      "check-whitespace"
-    ],
+    "one-line": false,
     "one-variable-per-declaration": true,
     "only-arrow-functions": [
       true,
@@ -127,22 +113,12 @@
     "prefer-object-spread": true,
     "prefer-readonly": true,
     "prefer-template": true,
-    "quotemark": [
-      true,
-      "single",
-      "jsx-double",
-      "avoid-escape"
-    ],
+    "quotemark": false,
     "radix": true,
     "restrict-plus-operands": true,
-    "semicolon": [
-      true,
-      "never"
-    ],
-    "space-before-function-paren": [
-      true,
-      "never"
-    ],
+    "semicolon": false,
+    "space-before-function-paren": false,
+    "space-within-parens": false,
     "strict-boolean-expressions": false,
     "switch-default": true,
     "triple-equals": [
@@ -173,17 +149,6 @@
       "allow-pascal-case",
       "allow-leading-underscore"
     ],
-    "whitespace": [
-      true,
-      "check-branch",
-      "check-decl",
-      "check-operator",
-      "check-module",
-      "check-preblock",
-      "check-separator",
-      "check-rest-spread",
-      "check-type",
-      "check-typecast"
-    ]
+    "whitespace": false
   }
 }
