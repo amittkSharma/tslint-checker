@@ -1,6 +1,6 @@
 {
   "name": "@amittksharma/tslint-checker",
-  "version": "4.1.0",
+  "version": "5.0.0",
   "description": "Module to have customised and common tslint rules across development teams",
   "main": "tslint.json",
   "scripts": {
