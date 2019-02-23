@@ -1,5 +1,5 @@
 {
-  "name": "tslint-checker",
+  "name": "@amittksharma/tslint-checker",
   "version": "4.1.0",
   "description": "Module to have customised and common tslint rules across development teams",
   "main": "tslint.json",
@@ -28,11 +28,11 @@
   },
   "homepage": "https://github.com/amittkSharma/tslint-checker#readme",
   "peerDependencies": {
-    "tslint": "5.11.0",
-    "tslint-eslint-rules": "5.4.0",
+    "tslint": "5.x.x",
+    "tslint-eslint-rules": "5.4.x",
     "vrsource-tslint-rules": "5.8.2"
   },
   "dependencies": {
-    "tslint-config-prettier": "1.15.0"
+    "tslint-config-prettier": "1.18.0"
   }
 }
