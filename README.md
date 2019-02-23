@@ -1,6 +1,6 @@
-[![NPM version](https://badge.fury.io/js/tslint-checker.svg)](https://www.npmjs.com/package/tslint-checker)
-[![Downloads](http://img.shields.io/npm/dm/tslint-checker.svg)](https://npmjs.org/package/tslint-checker)
-[![](https://img.shields.io/npm/l/tslint-checker.svg)](https://img.shields.io/npm/l/tslint-checker.svg)
+[![NPM version](https://badge.fury.io/js/@amittksharma/tslint-checker.svg)](https://www.npmjs.com/package/@amittksharma/tslint-checker)
+[![Downloads](http://img.shields.io/npm/dm/@amittksharma/tslint-checker.svg)](https://npmjs.org/package/@amittksharma/tslint-checker)
+[![](https://img.shields.io/npm/l/@amittksharma/tslint-checker.svg)](https://img.shields.io/npm/l/@amittksharma/tslint-checker.svg)
 
 # tslint-checker
 
