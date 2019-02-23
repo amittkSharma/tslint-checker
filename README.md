@@ -1,5 +1,6 @@
 [![NPM version](https://badge.fury.io/js/tslint-checker.svg)](https://www.npmjs.com/package/tslint-checker)
 [![Downloads](http://img.shields.io/npm/dm/tslint-checker.svg)](https://npmjs.org/package/tslint-checker)
+[![](https://img.shields.io/npm/l/tslint-checker.svg)](https://img.shields.io/npm/l/tslint-checker.svg)
 
 # tslint-checker
 
@@ -11,14 +12,17 @@ tslint-checker is the module to synchronise linting rules in the distributed dev
 - Easy incorporation
 
 ## Usage
+
 The package can be integrated very easily in any project.
+
 ```
  - npm install tslint-checker --save
 ```
+
 Create a `tslint.json` file in the root folder of your project and add
 the following:
 
-``` json
+```json
 {
   "extends": "tslint-checker/tslint"
 }
@@ -26,24 +30,24 @@ the following:
 
 ### Incorporation for React projects (.tsx files)
 
-``` json
+```json
 {
   "extends": "tslint-checker/tslint-react"
 }
-
 ```
 
 ### Incorporation for Angular projects
 
-``` json
+```json
 {
   "extends": "tslint-checker/tslint-ng2"
 }
-
 ```
 
 ## Reference TS Lint Rules:
+
 [TSLint Rules](https://palantir.github.io/tslint/rules/)
 
 ## License
+
 MIT
