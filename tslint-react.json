@@ -26,6 +26,7 @@
       "no-empty": true,
       "no-eval": true,
       "no-implicit-dependencies": [true, "dev"],
+      "no-non-null-assertion": true,
       "no-shadowed-variable": true,
       "no-string-literal": false,
       "no-switch-case-fall-through": true,
